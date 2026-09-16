@@ -1,0 +1,2 @@
+# studyai
+study mit ai
