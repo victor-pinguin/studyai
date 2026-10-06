@@ -1,0 +1,39 @@
+name: studysnap_ai
+description: "StudySnap AI – Aufgaben fotografieren, verstehen und üben."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # Schriften (Outfit, Plus Jakarta Sans, JetBrains Mono) – kostenlos von Google Fonts
+  google_fonts: ^6.2.1
+  # State-Management (einfach & bewährt)
+  provider: ^6.1.2
+  # Foto aufnehmen / Bild aus Galerie wählen
+  image_picker: ^1.1.2
+  # Kostenlose Texterkennung direkt auf dem Gerät (Android & iOS, offline, 0 €)
+  google_mlkit_text_recognition: ^0.15.0
+  # Lokale Speicherung (Aufgaben, Quiz-Ergebnisse, Einstellungen)
+  shared_preferences: ^2.3.2
+  # Nur für die spätere echte KI-API (ApiAiService)
+  http: ^1.2.2
+  # Kurze Töne bei richtigen/falschen Antworten (Dateien liegen in assets/sounds)
+  audioplayers: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/sounds/

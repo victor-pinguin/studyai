@@ -1,0 +1,17 @@
+Datei: ios/Podfile
+
+Die Texterkennung (Google ML Kit) braucht mindestens iOS 15.5.
+Ganz oben in der Podfile die Zeile
+
+  # platform :ios, '13.0'
+
+ersetzen durch (ohne # am Anfang!):
+
+  platform :ios, '15.5'
+
+Danach im Terminal:
+  cd ios
+  pod install
+  cd ..
+
+Hinweis: iPhone-Apps kann man nur auf einem Mac mit Xcode bauen.

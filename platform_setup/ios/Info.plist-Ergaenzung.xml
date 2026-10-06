@@ -1,0 +1,10 @@
+<!--
+  Datei: ios/Runner/Info.plist
+  Diese vier Zeilen INNERHALB von <dict> ... </dict> einfügen
+  (z. B. direkt nach der ersten Zeile <dict>).
+  Ohne diese Texte stürzt die App auf dem iPhone beim Öffnen von Kamera/Galerie ab.
+-->
+<key>NSCameraUsageDescription</key>
+<string>StudySnap AI braucht die Kamera, um deine Aufgaben zu fotografieren.</string>
+<key>NSPhotoLibraryUsageDescription</key>
+<string>StudySnap AI braucht Zugriff auf deine Fotos, um Aufgaben aus Bildern zu erkennen.</string>
